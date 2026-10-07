@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="assets/IdosoIcone.ico">
+        <title>Jogo do Velho</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+                <center>
+                        <h1>Jogo do Velho</h1>
+                        <div id="jogadores">
+                                <p id="jogador1">Jogador 1: X</p> <p>|</p> <p id="jogador2">Jogador 2: O</p>
+                        </div>
+                </center>
+        </header>
+        <div class = "Tabuleiro">
+                <canvas class = "Casa" id="casa0" onclick="Jogar(0)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa1" onclick="Jogar(1)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa2" onclick="Jogar(2)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa3" onclick="Jogar(3)" width="100" height="100"></canvas>
+
+                <canvas class = "Casa" id="casa4" onclick="Jogar(4)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa5" onclick="Jogar(5)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa6" onclick="Jogar(6)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa7" onclick="Jogar(7)" width="100" height="100"></canvas>
+
+                <canvas class = "Casa" id="casa8" onclick="Jogar(8)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa9" onclick="Jogar(9)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa10" onclick="Jogar(10)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa11" onclick="Jogar(11)" width="100" height="100"></canvas>
+
+                <canvas class = "Casa" id="casa12" onclick="Jogar(12)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa13" onclick="Jogar(13)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa14" onclick="Jogar(14)" width="100" height="100"></canvas>
+                        <canvas class = "Casa" id="casa15" onclick="Jogar(15)" width="100" height="100"></canvas>
+        </div>
+
+        <div class = "Botoes">
+                <button class="Limpar" role="button" onclick="Limpar()">Limpar</button>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
